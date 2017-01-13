@@ -122,7 +122,7 @@ else if ((browser == "Edge") && (System.getProperty("os.name").toUpperCase().con
 
        public static void main(String[] args) throws IOException {
 //           String in_browser = System.getProperty("browser");
-    	   	 String in_browser = "Safari"; // "HtmlUnit" "Firefox" or "Chrome" or Safari or IE or Edge
+    	   	 String in_browser = "IE"; // "HtmlUnit" "Firefox" or "Chrome" or Safari or IE or Edge
               setWebDriver(in_browser);
               String url = "http://alex.academy/ua";
 
